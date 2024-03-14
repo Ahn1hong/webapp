@@ -12,11 +12,7 @@
             <about v-if="current_option.state === 'about'" class="flex grow justify-center bg-white w-full p-10" />
         </div>
 
-        <foot
-            :company_name="company_name"
-            fb_link="https://www.facebook.com/"
-            git_link="https://naver.com/"
-        />
+        <foot :company_name="company_name" fb_link="https://www.facebook.com/" git_link="https://naver.com/" />
     </div>
 </template>
 
